@@ -2,10 +2,10 @@
 
 spl_autoload_register(function($nameClass){
 
-	//$dirClass = "class";
-	//$filename = $dirClass . DIRECTORY_SEPARATOR . $nameClass . ".php";
+	$dirClass = "class";
+	$filename = $dirClass . DIRECTORY_SEPARATOR . $nameClass . ".php";
 	
-	$filename = $nameClass.".php";
+	//$filename = $nameClass.".php";
 
 	if (file_exists($filename)){
 
