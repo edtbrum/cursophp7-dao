@@ -11,8 +11,8 @@ require_once("config.php");
 //echo $user;
 
 
-$lista = Usuario::getList();
-echo json_encode($lista);
+//$lista = Usuario::getList();
+//echo json_encode($lista);
 
 //$search = Usuario::search("jo");
 //echo json_encode($search);
@@ -20,5 +20,12 @@ echo json_encode($lista);
 //$usuario = new Usuario();
 //$usuario->login("eduardo","120976");
 //echo $usuario;
+
+//$aluno = new Usuario("teste", "12345678");
+//$aluno->setDeslogin("aluno");
+//$aluno->setDessenha("@lun0");
+//$aluno->insert();
+//echo $aluno;
+
 
  ?>
