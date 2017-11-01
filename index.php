@@ -32,5 +32,10 @@ require_once("config.php");
 //$user->update("Heleno", "abcdef");
 //echo $user;
 
+//$user = new Usuario();
+//$user->loadById(10);
+//$user->delete();
+//echo $user;
+
 
  ?>
