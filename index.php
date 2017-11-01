@@ -27,5 +27,10 @@ require_once("config.php");
 //$aluno->insert();
 //echo $aluno;
 
+//$user = new Usuario();
+//$user->loadById(9);
+//$user->update("Heleno", "abcdef");
+//echo $user;
+
 
  ?>
